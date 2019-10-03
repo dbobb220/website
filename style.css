@@ -63,9 +63,75 @@ div.parallax {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 700px;
+    height: 500px;
 }
 
 div.earth {
     background-image: url("/images/earth_banner.png");
+}
+
+div.parallax.austin {
+    background-image: url("/images/austin.jpg");
+    background-size: cover;
+}
+
+/* About Me CSS*/
+
+section#about {
+    display: flex;
+    margin: 30px 0;
+}
+
+#about img {
+    width: 260px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    padding: 10px;
+}
+
+#about figure {
+    margin: 0;
+}
+
+#about .img_section {
+    box-sizing: border-box;
+    width: 480px;
+    padding: 40px;
+    text-align: center;
+}
+
+#about figcaption {
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+section#about_info {
+    width: -webkit-fill-available;
+    max-width:960px;
+    margin: 0 auto;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.options div {
+    padding:20px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-bottom: 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+div#about_container {
+    border-top: 2px solid #fff;
+    margin-right:20px;
+}
+
+.options div.active {
+    background: #fff;
+    color: #000;
 }
