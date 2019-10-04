@@ -124,6 +124,8 @@ section#about_info {
     border-bottom: 0px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    min-width: 80px;
+    text-align: center;
 }
 
 div#about_container {
