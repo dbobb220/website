@@ -2,138 +2,160 @@
 
 /* top level styling including nav */
 html {
-    background-color:#252525;
-    font-family: 'Roboto Condensed';
-    color: #fff;
+  background-color: #252525;
+  font-family: "Roboto Condensed";
+  color: #fff;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    position: fixed;
-    width: -webkit-fill-available;
-    height: 50px;
-    background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: -webkit-fill-available;
+  height: 50px;
+  background: #000;
 }
 
 header img {
-    width: 200px;
+  width: 200px;
 }
 
 nav {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 nav a {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 main img {
-    width: 100%;
+  width: 100%;
 }
 main article {
-    margin: 50px 10px;
+  margin: 50px 10px;
 }
-
 
 /* featured projects section css */
 
 section#featured_projects {
-    display: flex;
-    justify-content: space-around;
-    margin: 30px 0;
-    align-items: center;
-    text-align:center;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  align-items: center;
+  text-align: center;
 }
 
 #featured_projects img {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 #featured_projects figcaption {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Parallax css*/
 
 div.parallax {
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
 }
 
 div.earth {
-    background-image: url("/images/earth_banner.png");
+  background-image: url("/images/earth_banner.png");
 }
 
-div.parallax.austin {
-    background-image: url("/images/austin.jpg");
-    background-size: cover;
+div.austin {
+  background-image: url("/images/austin.jpg");
+  background-size: cover;
+}
+
+div.parallax.atx {
+  background-image: url("/images/atx.png");
+  background-position: bottom;
+  height: 700px;
 }
 
 /* About Me CSS*/
 
 section#about {
-    display: flex;
-    margin: 30px 0;
+  display: flex;
+  margin: 30px 0;
 }
 
 #about img {
-    width: 260px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    padding: 10px;
+  width: 260px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  padding: 10px;
 }
 
 #about figure {
-    margin: 0;
+  margin: 0;
 }
 
 #about .img_section {
-    box-sizing: border-box;
-    width: 480px;
-    padding: 40px;
-    text-align: center;
+  box-sizing: border-box;
+  width: 480px;
+  padding: 40px;
+  text-align: center;
 }
 
 #about figcaption {
-    font-size: x-large;
-    margin-top: 20px;
+  font-size: x-large;
+  margin-top: 20px;
 }
 
 section#about_info {
-    width: -webkit-fill-available;
-    max-width:960px;
-    margin: 0 auto;
+  width: -webkit-fill-available;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .options {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .options div {
-    padding:20px;
-    border: 2px solid #fff;
-    color: #fff;
-    border-bottom: 0px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    min-width: 80px;
-    text-align: center;
+  padding: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  border-bottom: 0px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  min-width: 80px;
+  text-align: center;
 }
 
 div#about_container {
-    border-top: 2px solid #fff;
-    margin-right:20px;
+  border-top: 2px solid #fff;
+  margin-right: 20px;
 }
 
 .options div.active {
-    background: #fff;
-    color: #000;
+  background: #fff;
+  color: #000;
+}
+
+/* about me text*/
+
+div#about_container {
+  padding: 25px;
+  font-size: 125%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* footer */
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
 }
