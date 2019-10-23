@@ -37,6 +37,17 @@ main article {
   margin: 50px 10px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* featured projects section css */
 
 section#featured_projects {
@@ -133,6 +144,10 @@ section#about_info {
   text-align: center;
 }
 
+.options div:hover {
+  cursor: pointer;
+}
+
 div#about_container {
   border-top: 2px solid #fff;
   margin-right: 20px;
@@ -157,5 +172,23 @@ div#about_container {
 footer {
   height: 150px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+}
+
+footer section.social img {
+  width: 30px;
+  filter: invert(1);
+  margin-right: 10px;
+}
+
+section.social {
+  display: flex;
+}
+
+section.social div {
+  display: inherit;
+  align-items: center;
+  margin: 0 20px;
 }
