@@ -21,3 +21,13 @@ for (let i = 0; i < aboutOptions.length; i++) {
     aboutSwitch(aboutOptions[i]);
   });
 }
+
+setTimeout(() => {
+  document.querySelector("body").classList.add("overlay");
+  document.querySelector(".popup").classList.add("active");
+}, 1500);
+
+let closePopUp = () => {
+  document.querySelector("body").classList.remove("overlay");
+  document.querySelector(".popup").classList.remove("active");
+};
